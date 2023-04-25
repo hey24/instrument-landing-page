@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #111;
+  height: 100%;
 }
 
 .App-logo {
@@ -39,6 +40,10 @@ h1 {
 
 h2 {
   color: white;
+}
+
+p {
+  color: white
 }
 
 li {
