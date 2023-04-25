@@ -7,6 +7,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 export default function Hero() {
   return (
     <div className='Container'>
+      <div className="HeroItems-Flex">
       <div className="HeroItems">
         <img src={require('../hero.svg').default} alt='mySvgImage' className='HeroSVG' />
         <p className='InvestmentText'>
@@ -25,6 +26,8 @@ export default function Hero() {
         >
           Learn More
         </Button>
+      </div>
+      <div className='HeroItems-Blank'></div>
       </div>
     </div>
   )
