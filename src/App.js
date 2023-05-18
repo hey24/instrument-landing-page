@@ -1,6 +1,7 @@
-import Navbar from "./components/Navbar"
-import BrandVideo from "./components/BrandVideo";
-import Hero from "./components/Hero";
+import Navbar from "./components/sections/Navbar"
+import BrandVideo from "./components/sections/BrandVideo"
+import Hero from "./components/sections/Hero"
+import Projects from "./components/sections/Projects"
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <BrandVideo />
+      <Projects />
     </div>
   );
 }
