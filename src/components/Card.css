@@ -1,22 +1,32 @@
 .card {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 1em;
   flex-direction: row-reverse;
+  margin: 2rem 4rem;
 }
 
 .card-image {
+  flex-shrink: 0;
   width: 50%;
   height: auto;
   object-fit: cover;
-  margin-right: 20px;
+  margin-right: 1em;
 }
 
 .card-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 2rem 8rem;
+  text-align: center;
 }
 
 .card-description {
-  font-size: 2em;
+  font-size: 1.5rem;
   line-height: 1.5;
+  text-align: start;
+  width: 70%;
 }
