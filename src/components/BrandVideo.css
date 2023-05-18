@@ -1,0 +1,23 @@
+.VideoContainer {
+  height: 100%;
+  padding: 2em;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.VideoContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.ConnectedBrandsText {
+  width: 50%;
+}
+
+.ConnectedBrandsText h2 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 4em;
+}
