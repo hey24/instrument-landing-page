@@ -25,6 +25,7 @@ export default function Navbar() {
           imageSrc={card.imageSrc}
           description={card.description}
           btnText={card.btnText}
+          isTextOnLeft={index % 2 === 0}
         />
       ))}
     </div>
